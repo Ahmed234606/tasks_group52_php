@@ -217,6 +217,27 @@ print_r (array_splice($a,1,3,$b));
 print_r ($a);
 echo '<pre>';
 
+
+
+$data =[
+
+  'ahmeddata'=>[
+   0=> 'Ahmed Hamdy',
+   1=> 'Ahmed Hamdy',
+   2=> 'Ahmed Hamdy',
+   3=> 'Ahmed Hamdy',
+   ],
+  
+      'ahmedproject' =>[
+      'Frist'=> 'Hamdy Hamdy',
+      'Second'=> 'Hamdy Hamdy',
+      'Third'=> 'Hamdy Hamdy',
+      'Fourth'=> 'Hamdy Hamdy',
+  
+   ]
+      ];
+      print_r($data)
+
     ?>
 
 
